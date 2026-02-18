@@ -1,0 +1,13 @@
+.venv
+.env
+
+#Ignore Pythin cache directories
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Optional but recommended
+*.py[cod]
+*$py.class
