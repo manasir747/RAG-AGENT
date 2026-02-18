@@ -103,11 +103,13 @@ class RAGAgent:
         # Initialize Gemini with RAG-optimized settings
         # ✏️ FILL IN: Replace ___ with gemini_api_key
         # 💡 HINT: self.llm = GeminiWrapper(api_key=gemini_api_key, model_name="gemini-2.5-flash", temperature=temperature)
-  self.llm = GeminiWrapper(
-      api_key=gemini_api_key,
-      model_name="gemini-2.5-flash",
-      temperature=temperature
-)
+        # Initialize Gemini with RAG-optimized settings
+        self.llm = GeminiWrapper(
+            api_key=gemini_api_key,
+            model_name="gemini-2.5-flash",
+            temperature=temperature
+        )
+
 
         
         # Set a persona for accurate, sourced responses
